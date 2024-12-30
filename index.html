@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 JavaScript Events</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>10 JavaScript Events</h1>
+
+    <!-- Click Event -->
+    <div class="event">
+      <h3>Click Event</h3>
+      <button id="clickBtn">Click Me</button>
+      <div class="output" id="clickOutput">Click the button to see the effect.</div>
+    </div>
+
+    <!-- Double Click Event -->
+    <div class="event">
+      <h3>Double Click Event</h3>
+      <button id="dblClickBtn">Double Click Me</button>
+      <div class="output" id="dblClickOutput">Double click the button to see the effect.</div>
+    </div>
+
+    <!-- Mouse Over Event -->
+    <div class="event">
+      <h3>Mouse Over Event</h3>
+      <div id="hoverBox" style="background: #4caf50; text-align: center; height: 50px;">Hover over me</div>
+      <div class="output" id="hoverOutput">Move your mouse over the green box.</div>
+    </div>
+
+    <!-- Key Down Event -->
+    <div class="event">
+      <h3>Key Down Event</h3>
+      <input type="text" id="keyInput" placeholder="Press any key...">
+      <div class="output" id="keyOutput">Press any key in the input field.</div>
+    </div>
+
+    <!-- Change Event -->
+    <div class="event">
+      <h3>Change Event</h3>
+      <select id="selectInput">
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+      </select>
+      <div class="output" id="changeOutput">Select a value to see the change.</div>
+    </div>
+
+    <!-- Submit Event -->
+    <div class="event">
+      <h3>Submit Event</h3>
+      <form id="formSubmit">
+        <input type="text" id="nameInput" placeholder="Enter your name" required>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="output" id="submitOutput">Submit the form to see the effect.</div>
+    </div>
+
+    <!-- Focus Event -->
+    <div class="event">
+      <h3>Focus Event</h3>
+      <input type="text" id="focusInput" placeholder="Click to focus here...">
+      <div class="output hidden" id="focusOutput">Input field is focused!</div>
+    </div>
+
+    <!-- Blur Event -->
+    <div class="event">
+      <h3>Blur Event</h3>
+      <input type="text" id="blurInput" placeholder="Click and leave focus...">
+      <div class="output hidden" id="blurOutput">Input field lost focus!</div>
+    </div>
+
+    <!-- Resize Event -->
+    <div class="event">
+      <h3>Resize Event</h3>
+      <div class="output" id="resizeOutput">Resize the browser to see the effect.</div>
+    </div>
+
+    <!-- Scroll Event -->
+    <div class="event">
+      <h3>Scroll Event</h3>
+      <div class="output" id="scrollOutput">Scroll the page to see the effect.</div>
+    </div>
+  </div>
+<script src="js/script.js"></script>
+</body>
+</html>
